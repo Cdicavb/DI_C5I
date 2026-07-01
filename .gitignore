@@ -1,10 +1,36 @@
+# Entornos virtuales
+venv/
+venv312/
+.venv/
+
+# Cache de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Archivos de datos locales
+historial_noticias.csv
+*.csv
+*.xlsx
+*.kml
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de evidencia local
+evidencias/
+TEMP_FRONTEND_FOTOS/
+SALIDA_PRODUCCION_C5I*/
+
+# Archivos de presentación grandes
+*.pptx
+
+# Archivos de configuración sensibles
 .env
-.vs/
-*/.vs/
-*.suo
-*.sqlite
-*.vsixdx
-*.user
-*.userosscache
-*.sln.docstates
-/.gitignore
+*.key
+
+# IDE
+.vscode/
+.idea/
